@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background: url('gym.jpg');
+    font-family: 'Baloo Bhai', cursive;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 4px;
+}
+.left img{
+    width: 75px;
+    padding: 0px 0px 0px 28px;
+
+}
+.left div {
+    line-height: 19px;
+    font-size: 20px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 43%;
+    margin: 1px auto;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 12px;
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}
+.navbar{
+    display: inline-block; 
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(139, 139, 139);
+}
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(70, 69, 69);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 15px;
+    width: 36%;
+    border-radius: 28px;
+    position: absolute;
+    right: -56px;
+    top: -12px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.container h1:hover{
+    font-size: 32px;
+    color:rgb(255, 207, 49)
+}
+.container h1{
+    font-size: 30px;
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+.call{
+    position: absolute;
+    right: 43px;
+    bottom: 74px;
+}
+.icon{
+    position: absolute;
+    right: 35px;
+    bottom: 14px;
+}
+
+    .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 6px 3px;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+span:hover{
+    font-size: 115%;
+    color: rgb(212, 78, 16);
+}
